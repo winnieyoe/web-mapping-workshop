@@ -26,7 +26,7 @@ Duration: 2 hours
 - (If time permits) Google Earth Studio Demo
 
 ### Note to participants
-- No previous experience with coding is needed
+- No coding experience is required
 - Don't worry if you did not participate in the first workshop, the relevant part will be how to use Glitch, which we will cover again in this workshop
 
 ---
