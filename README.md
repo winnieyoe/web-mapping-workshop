@@ -54,14 +54,14 @@ Additional materials for the students to leave with that can help them dig deepe
 ## Post Session
 Workshop feedback form
 
-### Project References
+## Project References
 **Street View Projects**
 - ["Clinic"](http://www.lucamolnarart.com/2020/1/15/6b9hnl4likfbbyhtorazfuqguu317d), Luca Molnar
 - ["Officer Involved"](https://theintercept.co/officer-involved/), Josh Begley
 - ["A Series of Unfortunate Events"](https://www.lensculture.com/articles/michael-wolf-a-series-of-unfortunate-events), Michael Wolf
 - ["Travel by Approximation: A Vitrual Road Trip"](https://www.lensculture.com/articles/michael-wolf-a-series-of-unfortunate-events), Jenny Odell
 - ["Nine Eyes of Google Street View"](https://anthology.rhizome.org/9-eyes), Jon Rafman
-- ["Deep mapping gentrification in a large Canadian city using deep learning and Google Street View"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0212814), Lazar Ilic, M. Sawada, Amaury Zarzelli 
+- ["Deep mapping gentrification in a large Canadian city using deep learning and Google Street View"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0212814), Lazar Ilic, M. Sawada, Amaury Zarzelli
 
 **Street View Tool**
 - [Street View Mapper](https://streetview-mapper.org/), Joey Lee
