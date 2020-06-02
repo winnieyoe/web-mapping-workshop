@@ -3,7 +3,7 @@ A two hour workshop for ITP Camp 2020, a 4 week crash course for experimentation
 
 In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google first began the Street View project, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). Over 10 years into its introduction, we have seen many artists, designers and researchers using the platform creatively and critically — from captures of unexpected Street View images, virtual road trips, surveillance critique, to tracking gentrification.
 
-This workshop aims to give participants basic toolkit to explore the capacity of Street View. We will be using Google Street View API and Glitch to build a web project comparing streets with the same name in two different cities/countries %28[Project Reference](https://winnieyoe.com/Tracing-History-Through-Street-Names)%29.
+This workshop aims to give participants basic toolkit to explore the capacity of Street View. We will be using Google Street View API and Glitch to build a web project comparing streets with the same name in two different cities or countries ([Project Reference](https://winnieyoe.com/Tracing-History-Through-Street-Names)).
 
 The workshop takes place online through Zoom.
 
