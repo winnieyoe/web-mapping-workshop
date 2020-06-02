@@ -1,10 +1,10 @@
-# web-mapping-workshop
-ITP Camp 2020, Intro to Web Mapping Workshop (Part 2), focus on street view
-# About Our Template
+# Intro to Web Mapping (Part 2: Street View)
 
-Eyebeam's educational focus is to promote artist-led, STEAM based education. This template is intended for our teaching artists to document their lessons with a larger goal for their curriculum to be referenced or used more easily in classrooms, libraries, after school programs or anywhere STEAM programming can be offered.
+A two hour workshop held at the ITP Camp 2020, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
 
-This template is based off of NYC Department of Education's CS4All Blueprint to teach creative computing. For more information on the core components they advise teachers and classes focus on, and to give the students the competency to be better prepared to engage with more difficult STEM lessons, I highly encourage you to read about [their approach here](https://blueprint.cs4all.nyc/what-is-cs/).
+In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google Street View was first introduced, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). 
+
+The workshop takes place online through Zoom.
 
 # TEMPLATE BELOW
 
