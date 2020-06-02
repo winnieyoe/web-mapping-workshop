@@ -2,21 +2,18 @@
 
 A two hour workshop for the ITP Camp 2020, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
 
-In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google first began the Street View project, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). Over 10 years into its introduction, we have seen many artists, designers and researchers using the platform creatively and critically — from captures of unexpected Street View images, virtual road trips, surveillance critique, to tracking gentrification. This workshop aims to give participants basic toolkit to explore the capacity of Street View.  
+In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google first began the Street View project, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). Over 10 years into its introduction, we have seen many artists, designers and researchers using the platform creatively and critically — from captures of unexpected Street View images, virtual road trips, surveillance critique, to tracking gentrification. This workshop aims to give participants basic toolkit to explore the capacity of Street View.
 
 The workshop takes place online through Zoom.
-
-*No Prior Programming Skills is Needed*
 
 ## Authors
 Co-taught by [Winnie Yoe](https://winnieyoe.com) and [Karina Hyland](https://karinahy.com/).
 
 ## Learning Outcomes
-Questions that lead to meaningful exploration of CS concepts and practices. Examples:
-- How can programming represent your ideas and beliefs?
-- How might we use math to express ourselves creatively?
-- How might we use computing to impact our community?
-- What information is my computer sharing about me or my online activity?
+- Consider creative and critical use of Street View and satellite imageries
+- Create a Google Street View API key
+- Learn about fundamentals of using Google Street View in a web project
+- Publish a web project using Glitch
 
 ## Introduction
 Please provide a narrative of what the unit is about, and why we should learn it that is simple enough that a student could read and understand. Example: "In this workship we will be using ... to explore ... so that you have a better understanding of how ..."
