@@ -1,4 +1,5 @@
 # Intro to Web Mapping (Part 2: Street View)
+## Overview
 For ITP Camp 2020, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
 
 In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google first began the Street View project, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). Over 10 years into its introduction, many artists, designers and researchers have used the platform creatively and critically — from captures of unexpected Street View images, virtual road trips, surveillance critique, to tracking gentrification.
@@ -29,14 +30,13 @@ Duration: 2 hours
 - Don't worry if you did not participate in the first workshop, the relevant part will be how to use Glitch, which we will cover again in this workshop
 
 ---
-
+## Let's get started!
 ## Google Street View API
 What hardware, software, or other materials will students or teachers need for lessons.
 
 ---
-
-## Post Session
-Workshop feedback form
+## Post Session Feedback & Resources
+Please fill out the workshop feedback form
 
 ## Project References
 **Street View Projects**
@@ -56,5 +56,7 @@ Workshop feedback form
 
 ### Implementation Guidance & Teaching Reflection  
 e.g. Please provide some guidance based on experience delivering the unit and potential modifications might you are considering making for future iterations of this unit. This is an opportunity for you as the unit author to give teachers practical guidance.
+
+---
 
 ***Curriculum templates is inspired by [Eyebeam](https://github.com/eyebeam/curriculum/blob/master/TEMPLATE.md)***
