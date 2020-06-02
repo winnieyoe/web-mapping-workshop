@@ -1,19 +1,17 @@
 # Intro to Web Mapping (Part 2: Street View)
 
-A two hour workshop held at the ITP Camp 2020, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
+A two hour workshop for the ITP Camp 2020, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
 
-In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google Street View was first introduced, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). 
+In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google first began the Street View project, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). Over 10 years into its introduction, we have seen many artists, designers and researchers using the platform creatively and critically — from captures of unexpected Street View images, virtual road trips, surveillance critique, to tracking gentrification. This workshop aims to give participants basic toolkit to explore the capacity of Street View.  
 
 The workshop takes place online through Zoom.
 
-# TEMPLATE BELOW
-
-## Class Title
+*No Prior Programming Skills is Needed*
 
 ## Authors
-Your name (please include collaborators or funding institutions that have supported this work) and links to your site or Github.
+Co-taught by [Winnie Yoe](https://winnieyoe.com) and [Karina Hyland](https://karinahy.com/).
 
-## Essential Questions
+## Learning Outcomes
 Questions that lead to meaningful exploration of CS concepts and practices. Examples:
 - How can programming represent your ideas and beliefs?
 - How might we use math to express ourselves creatively?
