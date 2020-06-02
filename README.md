@@ -60,6 +60,8 @@ Workshop feedback form
 - ["Officer Involved"](https://theintercept.co/officer-involved/), Josh Begley
 - ["A Series of Unfortunate Events"](https://www.lensculture.com/articles/michael-wolf-a-series-of-unfortunate-events), Michael Wolf
 - ["Travel by Approximation: A Vitrual Road Trip"](https://www.lensculture.com/articles/michael-wolf-a-series-of-unfortunate-events), Jenny Odell
+- ["Nine Eyes of Google Street View"](https://anthology.rhizome.org/9-eyes), Jon Rafman
+- ["Deep mapping gentrification in a large Canadian city using deep learning and Google Street View"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0212814), Lazar Ilic, M. Sawada, Amaury Zarzelli 
 
 **Street View Tool**
 - [Street View Mapper](https://streetview-mapper.org/), Joey Lee
