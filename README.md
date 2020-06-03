@@ -57,7 +57,7 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 7. You should be able see the `Places API` in your enabled APIs. We'll also need `Street View Static API`, `Maps JavaScript API`, `Geocoding API` and `Geolocation API`. You can find click on one of them under `Additional APIs`.
 <img src="images/API-6B.jpg" alt="screenshot click on new project" width="800">
 
-**🗝 Part B: Let's get our own API key!**
+**🗝 Part B: Let's get our own API key!** <br>
 8. Go to menu, click on `APIs & Services` > `Credentials`
 <img src="images/API-7.jpg" alt="screenshot click on new project" width="800">
 
