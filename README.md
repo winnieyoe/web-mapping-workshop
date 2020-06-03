@@ -30,6 +30,7 @@ Duration: 2 hours
 - Don't worry if you did not participate in the first workshop, the relevant part will be how to use Glitch, which we will cover again in this workshop
 
 ---
+
 ## 🎈 Let's get started!
 ## Google Maps API (Step-by-Step)
 🤔 **What is an API?**
@@ -57,7 +58,7 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 7. You should be able see the `Places API` in your enabled APIs. We'll also need `Street View Static API`, `Maps JavaScript API`, `Geocoding API` and `Geolocation API`. You can find click on one of them under `Additional APIs`.
 <img src="images/API-6B.jpg" alt="screenshot click on new project" width="800">
 
-**🗝 Part B: Let's get our own API key!** \
+**🗝 Part B: Let's get our own API key!**
 
 8. Go to menu, click on `APIs & Services` > `Credentials`
 <img src="images/API-7.jpg" alt="screenshot click on new project" width="800">
@@ -74,7 +75,8 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 12. Save when you have all five! You should see your API key under `API keys` with 5 restrictions now.
 <img src="images/API-12.jpg" alt="screenshot click on new project" width="800">
 ---
-## 🎉 Post Session Feedback & Resources
+
+## 🎉 Post Session Feedback & Resources ##
 Please fill out the workshop feedback form
 
 ## Project References
