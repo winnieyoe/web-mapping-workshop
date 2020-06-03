@@ -20,7 +20,7 @@ Co-taught by [Winnie Yoe](https://winnieyoe.com) and [Karina Hyland](https://kar
 ## Workshop Schedule
 Duration: 2 hours
 - Context & Introduction
-- Project References
+- [Project References](#project-references)
 - Guided coding exercise - let's make a web map!
 - Project sharing
 - (If time permits) Google Earth Studio Demo
