@@ -78,6 +78,7 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 <img src="images/API-12.jpg" alt="screenshot click on new project" width="750">
 
 ## Make a Web Map
+1. First make a new project on Glitch. In the `index.html` page, find the `<script src="script.js" defer></script>` and add the following code. Copy your API key from Google Cloud Platform after `key=`
 
 ```
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=[YOUR API KEY]_O51Ct6WU3eE&region=GB&libraries=places&callback=initialize"></script>
