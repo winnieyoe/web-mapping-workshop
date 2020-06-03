@@ -35,7 +35,7 @@ Duration: 2 hours
 🤔 **What is an API?**
 An analogy: API is the waiter, server/assets (in this case Google Maps) is the kitchen, and your website is the client. API is the messenger that will take your request, process it, and eventually give a chicken rice to you.   
 
-**Part A: Let's find all the APIs we need!**
+**🕵️ Part A: Let's find all the APIs we need!**
 1. Go to [Google Cloud Platform](https://console.cloud.google.com/google/maps-apis/). *(You'll need a Google account)* Agree to the terms of service and set your country.
 <img src="images/API-1.jpg" alt="screenshot of create new project" width="800">
 
@@ -57,10 +57,21 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 7. You should be able see the `Places API` in your enabled APIs. We'll also need `Street View Static API`, `Maps JavaScript API`, `Geocoding API` and `Geolocation API`. You can find click on one of them under `Additional APIs`.
 <img src="images/API-6B.jpg" alt="screenshot click on new project" width="800">
 
-**Part B: Let's get our own API key!**
-8.
+**🗝 Part B: Let's get our own API key!**
+8. Go to menu, click on `APIs & Services` > `Credentials`
+<img src="images/API-7.jpg" alt="screenshot click on new project" width="800">
 
+9. Click on `Create Credentials` > `API key`
+<img src="images/API-8.jpg" alt="screenshot click on new project" width="800">
 
+10. You've made an API key! We'll need that later, but for now click `Restrict Key`
+<img src="images/API-9.jpg" alt="screenshot click on new project" width="800">
+
+11. Search for the APIs we've enabled earlier under `API Restrictions` > `Restrict key`. (`Street View Static API`, `Maps JavaScript API`, `Geocoding API`, `Geolocation API`)
+<img src="images/API-10.jpg" alt="screenshot click on new project" width="800">
+
+12. Save when you have all five! You should see your API key under `API keys` with 5 restrictions now.
+<img src="images/API-12.jpg" alt="screenshot click on new project" width="800">
 ---
 ## 🎉 Post Session Feedback & Resources
 Please fill out the workshop feedback form
