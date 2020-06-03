@@ -74,9 +74,10 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 
 12. Save when you have all five! You should see your API key under `API keys` with 5 restrictions now.
 <img src="images/API-12.jpg" alt="screenshot click on new project" width="800">
+
 ---
 
-## 🎉 Post Session Feedback & Resources ##
+## 🎉 Post Session Feedback & Resources
 Please fill out the workshop feedback form
 
 ## Project References
