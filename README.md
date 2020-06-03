@@ -54,9 +54,6 @@ Please fill out the workshop feedback form
 - ["Postcards from Goolge Earth"](http://clementvalla.com/work/postcards-from-google-earth/), Clement Valla
 - ["How Universities Became the New Battlegrounds in  the Hong Kong Protests"](https://www.nytimes.com/interactive/2019/11/18/world/asia/hong-kong-protest-universities.html), NY Times
 
-### Implementation Guidance & Teaching Reflection  
-e.g. Please provide some guidance based on experience delivering the unit and potential modifications might you are considering making for future iterations of this unit. This is an opportunity for you as the unit author to give teachers practical guidance.
-
 ---
 
 ***Curriculum templates is inspired by [Eyebeam](https://github.com/eyebeam/curriculum/blob/master/TEMPLATE.md)***
