@@ -33,10 +33,10 @@ Duration: 2 hours
 ## 🎈 Let's get started!
 ## Google Maps API (Step-by-Step)
 1. Go to [Google Cloud Platform](https://console.cloud.google.com/google/maps-apis/). *(You'll need a Google account)* Agree to the terms of service and set your country.
-<img src="images/API-1.jpg" width="800" style="margin:auto">
+<img src="images/API-1.jpg" alt="screenshot of create new project" width="800" style="vertical-align:middle">
 
 2. Create a new project.
-<img src="images/API-2.jpg" width="800" style="margin:auto">
+<img src="images/API-2.jpg" alt="screenshot click on new project" width="800" style="vertical-align:middle">
 
 ---
 ## 🎉 Post Session Feedback & Resources
