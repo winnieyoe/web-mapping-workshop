@@ -22,7 +22,7 @@ Duration: 2 hours
 - Context & Introduction
 - [Project References](#project-references)
 - Guided coding exercise - let's make a web map!
-  - [Part 1: Google Maps APIs](#google-maps-APIs))
+  - [Part 1: Google Maps APIs](#google-maps-APIs)
   - [Part 2: Make Web Map](#make-a-web-map)
 - Project sharing
 - (If time permits) Google Earth Studio Demo
