@@ -22,6 +22,8 @@ Duration: 2 hours
 - Context & Introduction
 - [Project References](#project-references)
 - Guided coding exercise - let's make a web map!
+  - [Part 1: Google Maps APIs](#google-maps-APIs))
+  - [Part 2: Make Web Map](#make-a-web-map)
 - Project sharing
 - (If time permits) Google Earth Studio Demo
 
@@ -32,7 +34,7 @@ Duration: 2 hours
 ---
 
 ## 🎈 Let's get started!
-## Google Maps API (Step-by-Step)
+## Google Maps APIs
 🤔 **What is an API?**
 An analogy: API is the waiter, server/assets (in this case Google Maps) is the kitchen, and your website is the client. API is the messenger that will take your request, process it, and eventually give a chicken fried rice to you.   
 
@@ -74,6 +76,8 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 
 12. Save when you have all five! You should see your API key under `API keys` with 5 restrictions now.
 <img src="images/API-12.jpg" alt="screenshot click on new project" width="800">
+
+## Make a Web Map
 
 ---
 
