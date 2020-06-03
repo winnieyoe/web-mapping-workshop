@@ -40,42 +40,42 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 
 **🕵️ Part A: Let's find all the APIs we need!**
 1. Go to [Google Cloud Platform](https://console.cloud.google.com/google/maps-apis/). *(You'll need a Google account)* Agree to the terms of service and set your country.
-<img src="images/API-1.jpg" alt="screenshot of create new project" width="800">
+<img src="images/API-1.jpg" alt="screenshot of create new project" width="750">
 
 2. Click on New Project.
-<img src="images/API-2.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-2.jpg" alt="screenshot click on new project" width="750">
 
 3. Make a new project and click `Create`.
-<img src="images/API-3.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-3.jpg" alt="screenshot click on new project" width="750">
 
 4. On `APIs & Services` > `Dashboard`, click `Enable APIs and Services`. This will bring you to the API Library page.
-<img src="images/API-4.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-4.jpg" alt="screenshot click on new project" width="750">
 
 5. We'll need 5 APIs enabled in total. Let's start by clicking/search `Places API`.
-<img src="images/API-5.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-5.jpg" alt="screenshot click on new project" width="750">
 
 6. Enable the API
-<img src="images/API-6.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-6.jpg" alt="screenshot click on new project" width="750">
 
 7. You should be able see the `Places API` in your enabled APIs. We'll also need `Street View Static API`, `Maps JavaScript API`, `Geocoding API` and `Geolocation API`. You can find click on one of them under `Additional APIs`.
-<img src="images/API-6B.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-6B.jpg" alt="screenshot click on new project" width="750">
 
 **🗝 Part B: Let's get our own API key!**
 
 8. Go to menu, click on `APIs & Services` > `Credentials`
-<img src="images/API-7.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-7.jpg" alt="screenshot click on new project" width="750">
 
 9. Click on `Create Credentials` > `API key`
-<img src="images/API-8.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-8.jpg" alt="screenshot click on new project" width="750">
 
 10. You've made an API key! We'll need that later, but for now click `Restrict Key`
-<img src="images/API-9.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-9.jpg" alt="screenshot click on new project" width="750">
 
 11. Search for the APIs we've enabled earlier under `API Restrictions` > `Restrict key`. (`Street View Static API`, `Maps JavaScript API`, `Geocoding API`, `Geolocation API`)
-<img src="images/API-10.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-10.jpg" alt="screenshot click on new project" width="750">
 
 12. Save when you have all five! You should see your API key under `API keys` with 5 restrictions now.
-<img src="images/API-12.jpg" alt="screenshot click on new project" width="800">
+<img src="images/API-12.jpg" alt="screenshot click on new project" width="750">
 
 ## Make a Web Map
 
