@@ -33,7 +33,7 @@ Duration: 2 hours
 ## 🎈 Let's get started!
 ## Google Maps API (Step-by-Step)
 🤔 **What is an API?**
-An analogy: API is the waiter, server/assets (in this case Google Maps) is the kitchen, and your website is the client. API is the messenger that will take your request, process it, and eventually give a chicken rice to you.   
+An analogy: API is the waiter, server/assets (in this case Google Maps) is the kitchen, and your website is the client. API is the messenger that will take your request, process it, and eventually give a chicken fried rice to you.   
 
 **🕵️ Part A: Let's find all the APIs we need!**
 1. Go to [Google Cloud Platform](https://console.cloud.google.com/google/maps-apis/). *(You'll need a Google account)* Agree to the terms of service and set your country.
