@@ -79,8 +79,7 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 
 ## Make a Web Map
 
-1.
-`<script async defer src="https://maps.googleapis.com/maps/api/js?key=[YOUR API KEY]_O51Ct6WU3eE&region=GB&libraries=places&callback=initialize"></script>`
+1. ```<script async defer src="https://maps.googleapis.com/maps/api/js?key=[YOUR API KEY]_O51Ct6WU3eE&region=GB&libraries=places&callback=initialize"></script>```
 
 ---
 
