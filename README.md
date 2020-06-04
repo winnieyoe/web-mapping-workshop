@@ -88,20 +88,20 @@ https://maps.googleapis.com/maps/api/streetview?size=400x400&location=47.5763831
 In your `index.html` file:
 
 ```
-<div class="streetview" id="sv1"></div>
-    <script src="script.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&callback=initialize">
-    </script>
+  <div class="streetview" id="sv1"></div>
+  <script src="script.js"></script>
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&callback=initialize">
+  </script>
 ```
 
 In your `style.css` file:
 ```
-  html,body{
+  html, body {
     height: 100%;
   }
 
-  .streetview{
+  .streetview {
     height:100%;
   }
 ```
