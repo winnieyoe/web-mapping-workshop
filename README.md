@@ -78,10 +78,47 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 <img src="images/API-12.jpg" alt="screenshot click on new project" width="750">
 
 ## Make a Web Map
-1. First make a new project on Glitch. In the `index.html` page, find the `<script src="script.js" defer></script>` and add the following code. Copy your API key from Google Cloud Platform after `key=`
+1. Before we begin, let's see what the API key we got can really enable us to do. Try put this link in the browser and replace `YOUR_API_KEY`.
+```
+https://maps.googleapis.com/maps/api/streetview?size=400x400&location=47.5763831,-122.4211769&fov=80&heading=70&pitch=0&key=YOUR_API_KEY
+```
+
+2. Make a new web project on [Glitch](https://glitch.com/). Copy your API key from Google Cloud Platform after `key=`
+
+In your `index.html` file:
 
 ```
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=[YOUR API KEY]_O51Ct6WU3eE&region=GB&libraries=places&callback=initialize"></script>
+<div class="streetview" id="sv1"></div>
+    <script src="script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&callback=initialize">
+    </script>
+```
+
+In your `style.css` file:
+```
+  html,body{
+    height: 100%;
+  }
+
+  .streetview{
+    height:100%;
+  }
+```
+
+In your `script.js` file:
+```
+  function initialize() {
+    var itp = {lat: 40.6933, lng: -73.9874};
+    var options = {
+      position: itp,
+      pov: {
+            heading: 230,
+            pitch: 10
+      }
+    }
+    var panorama = new google.maps.StreetViewPanorama(document.getElementById('sv1'), options);
+  }
 ```
 
 ---
