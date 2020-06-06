@@ -1,6 +1,6 @@
 # Intro to Web Mapping (Part 2: Street View)
 ## 😎 Overview
-Web mapping workshop for ITP Camp 2020, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
+Web mapping workshop for ITP Camp 2020 organized by the Interactive Telecommunications Program (ITP) at New York University.
 
 In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google first began the Street View project, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). Over 10 years into its introduction, many artists, designers and researchers have used the platform creatively and critically — from captures of unexpected Street View images, virtual road trips, surveillance critique, to tracking gentrification.
 
@@ -27,16 +27,12 @@ Duration: 2 hours
 - Project sharing
 - (If time permits) Google Earth Studio Demo
 
-### Note to participants
-- No coding experience is required
-- Don't worry if you did not participate in the first workshop, the relevant part will be how to use Glitch, which we will cover again in this workshop
-
 ---
 
 ## 🎈 Let's get started!
 ## Google Maps APIs
 🤔 **What is an API?**
-An analogy: API is the waiter, server/assets (in this case Google Maps) is the kitchen, and your website is the client. API is the messenger that will take your request, process it, and eventually give a chicken fried rice to you.   
+An analogy: API is the waiter, server/assets (in this case Google Maps) is the kitchen, and your webpage is the client. API is the messenger that will take your request, process it, and eventually give a fried rice to you.   
 
 **🕵️ Part A: Let's find all the APIs we need!**
 1. Go to [Google Cloud Platform](https://console.cloud.google.com/google/maps-apis/). *(You'll need a Google account)* Agree to the terms of service and set your country.
@@ -91,7 +87,7 @@ In your `index.html` file:
   <div class="streetview" id="sv1"></div>
   <script src="script.js"></script>
   <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&callback=initialize">
+      src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&libraries=places&callback=initialize">
   </script>
 ```
 
@@ -110,15 +106,67 @@ In your `script.js` file:
 ```
   function initialize() {
     var itp = {lat: 40.6933, lng: -73.9874};
-    var options = {
+    var sv_options = {
       position: itp,
       pov: {
             heading: 230,
             pitch: 10
       }
     }
-    var panorama = new google.maps.StreetViewPanorama(document.getElementById('sv1'), options);
+    var panorama = new google.maps.StreetViewPanorama(document.getElementById('sv1'), sv_options);
   }
+```
+
+This is where we would have met — new location of ITP in Brooklyn.
+
+3. We want to be able to search for an address, let's create an autocomplete search box next.
+
+In your `index.html` file (add this above the previous <div>):
+
+```
+  <div class="search">
+      <input id="searchbox" type="text" placeholder="Search for a Street in the US">
+  </div>
+```
+
+In your `script.js` file:
+```
+  var searchbox = document.getElementById('searchbox');
+  var options = {
+    componentRestrictions: {'country': ['us']},
+    types:['address']
+  }
+  var autocomplete = new google.maps.places.Autocomplete(searchbox, options);
+```
+
+In your `style.css` file:
+```
+  #searchbox {
+    z-index: 99;
+    position: absolute;
+    width: 80%;
+  }
+```
+4. We want to connect the search box to the map, let's create a separate function for the streetview.
+Let's move things around a bit and create a new function for the streetview called `function show_streetview()`
+<img src="images/glitch-1.png" alt="screenshot of glitch.com" width="750">
+
+5. Next, we'll need to add an event listener and pass on variables "lat, lng" to the function we created. Let's also add a console log to understand how the autocomplete done. 
+<img src="images/glitch-2.png" alt="screenshot of glitch.com" width="750">
+
+```
+//Add event to searchbox, activates on place changed
+  autocomplete.addListener('place_changed', function(){
+    var place = autocomplete.getPlace();
+
+    var lat = place.geometry.location.lat();
+    var lng = place.geometry.location.lng();
+
+    //Pass the new location's lat, lng to display streetview function
+    show_streetview(lat, lng);
+
+    console.log(place,lat,lng);
+  })
 ```
 
 ---
