@@ -1,7 +1,5 @@
 # Intro to Web Mapping (Part 2: Street View)
 ## 😎 Overview
-Web mapping workshop for ITP Camp 2020 organized by the Interactive Telecommunications Program (ITP) at New York University.
-
 In this workshop, we will expand the limits of web mapping by exploring the Google Street View API. When Google first began the Street View project, it was said to ["provide users with a rich, immersive browsing experience"](https://googlepress.blogspot.com/2007/05/google-announces-new-mapping_29.html). Over 10 years into its introduction, many artists, designers and researchers have used the platform creatively and critically — from captures of unexpected Street View images, virtual road trips, surveillance critique, to tracking gentrification.
 
 This workshop aims to give participants basic toolkit to explore the capacity of Street View. We will be using Google Street View API, Glitch, HTML/CSS & JavaScript to build a web project comparing streets with the same name in two different cities or countries ([Project Reference](https://winnieyoe.com/Tracing-History-Through-Street-Names)).
@@ -151,7 +149,7 @@ In your `style.css` file:
 Let's move things around a bit and create a new function for the streetview called `function show_streetview()`
 <img src="images/glitch-1.png" alt="screenshot of glitch.com" width="750">
 
-5. Next, we'll need to add an event listener and pass on variables "lat, lng" to the function we created. Let's also add a console log to understand how the autocomplete done. 
+5. Next, we'll need to add an event listener and pass on variables "lat, lng" to the function we created. Let's also add a console log to understand how the autocomplete done.
 <img src="images/glitch-2.png" alt="screenshot of glitch.com" width="750">
 
 ```
