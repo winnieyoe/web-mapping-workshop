@@ -282,7 +282,7 @@ function same_street(current_street){
   }
 ```
 
-**The complete code is here: https://glitch.com/~itpcamp-streetview
+**The complete code is here: https://glitch.com/~itpcamp-streetview**
 
 ---
 
