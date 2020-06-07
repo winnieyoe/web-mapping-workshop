@@ -30,7 +30,7 @@ Duration: 2 hours
 ## 🎈 Let's get started!
 ## Google Maps APIs
 🤔 **What is an API?**
-An analogy: API is the waiter, server/assets (in this case Google Maps) is the kitchen, and your webpage is the client. API is the messenger that will take your request, process it, and eventually give a fried rice to you.   
+An analogy: API is the waiter, server/assets (in this case Google Maps) is the kitchen, and your webpage is the client. API is the messenger that will take your order, give it to the kitchen, and eventually send back your dish of fried rice.   
 
 **🕵️ Part A: Let's find all the APIs we need!**
 1. Go to [Google Cloud Platform](https://console.cloud.google.com/google/maps-apis/). *(You'll need a Google account)* Agree to the terms of service and set your country.
@@ -72,7 +72,7 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 <img src="images/API-12.jpg" alt="screenshot click on new project" width="750">
 
 ## Make a Web Map
-1. Before we begin, let's see what the API key we got can really enable us to do. Try put this link in the browser and replace `YOUR_API_KEY`.
+1. Before we begin, let's see what the API key we got can really enable us to do. Copy this link in the browser and replace `YOUR_API_KEY`.
 ```
 https://maps.googleapis.com/maps/api/streetview?size=400x400&location=47.5763831,-122.4211769&fov=80&heading=70&pitch=0&key=YOUR_API_KEY
 ```
@@ -96,7 +96,7 @@ In your `style.css` file:
   }
 
   .streetview {
-    height:100%;
+    height:100vh;
   }
 ```
 
@@ -166,6 +166,123 @@ Let's move things around a bit and create a new function for the streetview call
     console.log(place,lat,lng);
   })
 ```
+
+6. Add another div for the country you'll be comparing streetviews
+
+In you `index.html` file:
+
+```
+  <div class="streetviews">
+      <div class="streetview" id="sv1"></div>
+      <div class="streetview" id="sv2"></div>
+  </div>
+```
+
+In your `style.css` file:
+
+```
+  .streetviews {
+    display: flex;
+  }
+
+  .streetview {
+    height:100vh;
+    width: 50%;
+    border: 1px solid black;
+  }
+
+```
+
+7. We want to get the street name we input in country 1 > find if there's a same one in country 2.
+From the console.log we see that the street name is stored in `place.address_components[0].long_name`.
+
+<img src="images/glitch-3.png" alt="screenshot of glitch-3.com" width="750">
+
+Let's create a variable `var current_street = place.address_components[0].long_name;` and add this to the end of the autocomplete event listener
+```
+  autocomplete.addListener('place_changed', function(){
+     var place = autocomplete.getPlace();
+
+     var lat = place.geometry.location.lat();
+     var lng = place.geometry.location.lng();
+
+     //Pass the new location's lat, lng to display streetview function
+     show_streetview(lat, lng);
+
+     //Pass street name in country 1 to country 2
+     var current_street = place.address_components[0].long_name;
+   })
+```
+
+8. We will need another function to control country 2's streetview (right panel), let's call the function `same_street`, add that after the `current_street` variable. We can check if the name gets pass on.
+
+```
+  function same_street(current_street){
+    console.log(current_street)  
+  }
+```
+
+9. We can add similar code as country 1 here:
+
+```
+function same_street(current_street){
+  var sv_options = {
+    position: {lat: lat, lng: lng}
+    }
+    new google.maps.StreetViewPanorama(document.getElementById('sv2'), sv_options);
+}
+```
+
+10. Notice that `current_street` is a text while to display streetview, we need to use lat, lng. We need to convert the physical address using geocoding.
+
+```
+function same_street(current_street){
+  var geocoder = new google.maps.Geocoder();
+
+  geocoder.geocode(request, function(results, status){
+  if (status === 'OK') {
+
+    //DO SOMETHING
+
+    } else {
+
+      //TELL ME SOMETHING IS WRONG
+
+    }
+  })
+}
+```
+
+11. We'll pass on `current_street` to request, if there is a result, then use the result's lat lng to show a new streetview, if not, send me an alert!
+
+```
+  function same_street(current_street) {
+    var geocoder = new google.maps.Geocoder();
+
+    var request = {
+        'address': current_street,
+        'componentRestrictions': {'country': 'HK'}
+    }
+
+    geocoder.geocode(request, function(results, status){
+    if (status === 'OK') {
+      console.log("results", results)
+      var lat = results[0].geometry.location.lat();
+      var lng = results[0].geometry.location.lng();
+
+      var sv_options = {
+      position: {lat: lat, lng: lng}
+      }
+      new google.maps.StreetViewPanorama(document.getElementById('sv2'), sv_options);
+
+      } else {
+        alert("No same streets found, please try a different entry.");
+      }
+    })
+  }
+```
+
+**The complete code is here: https://glitch.com/~itpcamp-streetview
 
 ---
 
