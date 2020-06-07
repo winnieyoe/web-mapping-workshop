@@ -73,6 +73,7 @@ An analogy: API is the waiter, server/assets (in this case Google Maps) is the k
 
 ## Make a Web Map
 1. Before we begin, let's see what the API key we got can really enable us to do. Copy this link in the browser and replace `YOUR_API_KEY`.
+
 ```
 https://maps.googleapis.com/maps/api/streetview?size=400x400&location=47.5763831,-122.4211769&fov=80&heading=70&pitch=0&key=YOUR_API_KEY
 ```
@@ -90,6 +91,7 @@ In your `index.html` file:
 ```
 
 In your `style.css` file:
+
 ```
   html, body {
     height: 100%;
@@ -101,6 +103,7 @@ In your `style.css` file:
 ```
 
 In your `script.js` file:
+
 ```
   function initialize() {
     var itp = {lat: 40.6933, lng: -73.9874};
@@ -147,9 +150,11 @@ In your `style.css` file:
 ```
 4. We want to connect the search box to the map, let's create a separate function for the streetview.
 Let's move things around a bit and create a new function for the streetview called `function show_streetview()`
+
 <img src="images/glitch-1.png" alt="screenshot of glitch.com" width="750">
 
 5. Next, we'll need to add an event listener and pass on variables "lat, lng" to the function we created. Let's also add a console log to understand how the autocomplete done.
+
 <img src="images/glitch-2.png" alt="screenshot of glitch.com" width="750">
 
 ```
@@ -198,7 +203,8 @@ From the console.log we see that the street name is stored in `place.address_com
 
 <img src="images/glitch-3.png" alt="screenshot of glitch-3.com" width="750">
 
-Let's create a variable `var current_street = place.address_components[0].long_name;` and add this to the end of the autocomplete event listener
+Let's create a variable `var current_street = place.address_components[0].long_name;` and add this to the end of the autocomplete event listener.
+
 ```
   autocomplete.addListener('place_changed', function(){
      var place = autocomplete.getPlace();
