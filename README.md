@@ -86,7 +86,7 @@ In your `index.html` file:
   <div class="streetview" id="sv1"></div>
   <script src="script.js"></script>
   <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&libraries=places&callback=initialize">
+      src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&libraries=places&callback=init">
   </script>
 ```
 
@@ -105,7 +105,7 @@ In your `style.css` file:
 In your `script.js` file:
 
 ```
-  function initialize() {
+  function init() {
     var itp = {lat: 40.6933, lng: -73.9874};
     var sv_options = {
       position: itp,
