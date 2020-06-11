@@ -145,7 +145,11 @@ In your `style.css` file:
   #searchbox {
     z-index: 99;
     position: absolute;
-    width: 80%;
+    width: 50%;
+    height: 30px;
+    margin-top: 40%;
+    left: 25%;
+    text-align: center;
   }
 ```
 4. We want to connect the search box to the map, let's create a separate function for the streetview.
