@@ -83,11 +83,14 @@ https://maps.googleapis.com/maps/api/streetview?size=400x400&location=47.5763831
 In your `index.html` file:
 
 ```
-  <div class="streetview" id="sv1"></div>
   <script src="script.js"></script>
   <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&libraries=places&callback=init">
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=init">
   </script>
+```
+
+```
+  <div class="streetview" id="sv1"></div>
 ```
 
 In your `style.css` file:
@@ -132,12 +135,11 @@ In your `index.html` file (add this above the previous <div>):
 
 In your `script.js` file:
 ```
-  var searchbox = document.getElementById('searchbox');
   var options = {
     componentRestrictions: {'country': ['us']},
     types:['address']
   }
-  var autocomplete = new google.maps.places.Autocomplete(searchbox, options);
+  var autocomplete = new google.maps.places.Autocomplete(document.getElementById('searchbox'),options);
 ```
 
 In your `style.css` file:
@@ -147,7 +149,7 @@ In your `style.css` file:
     position: absolute;
     width: 50%;
     height: 30px;
-    margin-top: 40%;
+    margin-top: 30%;
     left: 25%;
     text-align: center;
   }
